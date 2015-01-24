@@ -1,0 +1,20 @@
+{
+    "name": "kyle-noland/eloquent-base-observer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Kyle Noland",
+            "email": "kylenoland@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "KyleNoland\\EloquentBaseObserver": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
