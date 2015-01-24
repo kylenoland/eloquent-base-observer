@@ -22,6 +22,16 @@ class EloquentBaseObserverServiceProvider extends ServiceProvider {
 	}
 
 	/**
+	 * Boot the service provider.
+	 *
+	 * @return void
+	 */
+	public function boot()
+	{
+		$this->package('KyleNoland/EloquentBaseObserver');
+	}
+
+	/**
 	 * Get the services provided by the provider.
 	 *
 	 * @return array
